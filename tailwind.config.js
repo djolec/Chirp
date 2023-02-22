@@ -1,12 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./build/**/*.html'],
+  content: ['./build/*.html'],
   theme: {
 
     extend: {
       screens: {
         '2xl':'2130px',
-        'lg':'1130px'
+        'lg':'1130px',
       },
       colors: {
         'header-hero': '#fbf8f3',
