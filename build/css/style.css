@@ -571,8 +571,20 @@ video {
   height: 1px;
 }
 
+.h-\[20px\] {
+  height: 20px;
+}
+
+.h-\[24px\] {
+  height: 24px;
+}
+
 .w-10 {
   width: 2.5rem;
+}
+
+.w-\[24px\] {
+  width: 24px;
 }
 
 .w-\[93\%\] {
@@ -908,6 +920,14 @@ video {
 
 .hover\:underline:hover {
   text-decoration-line: underline;
+}
+
+.peer:checked ~ .peer-checked\:block {
+  display: block;
+}
+
+.peer:checked ~ .peer-checked\:hidden {
+  display: none;
 }
 
 .peer:checked ~ .peer-checked\:scale-y-100 {
