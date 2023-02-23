@@ -521,8 +521,8 @@ video {
   right: 50%;
 }
 
-.top-\[90px\] {
-  top: 90px;
+.top-\[92px\] {
+  top: 92px;
 }
 
 .mx-auto {
@@ -569,10 +569,6 @@ video {
 
 .h-\[1px\] {
   height: 1px;
-}
-
-.h-\[20px\] {
-  height: 20px;
 }
 
 .h-\[24px\] {
@@ -1044,6 +1040,11 @@ video {
 
   .sm\:text-\[3\.5rem\] {
     font-size: 3.5rem;
+  }
+
+  .sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .sm\:leading-\[1\.2\] {
